@@ -1,0 +1,40 @@
+
+.body{
+    background-color: rgb(19, 21, 21);
+    margin: 0;
+    border: none;
+}
+.container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Logo Nav Nav Nav"
+      "Artistas Artistas Artistas Artistas"
+      "Artistas Artistas Artistas Artistas"
+      "About-Us About-Us About-Us About-Us"
+      "About-Us About-Us About-Us About-Us"
+      "Preguntas-Frecuentes Preguntas-Frecuentes Preguntas-Frecuentes Preguntas-Frecuentes"
+      "Preguntas-Frecuentes Preguntas-Frecuentes Preguntas-Frecuentes Preguntas-Frecuentes"
+      "Footer Footer Footer Footer"
+      "Footer Footer Footer Footer";
+  }
+  
+  .Logo { grid-area: Logo; }
+  
+  .Nav { grid-area: Nav; }
+  
+  .Artistas { grid-area: Artistas; }
+  
+  .About-Us { grid-area: About-Us; }
+  
+  .Preguntas-Frecuentes { grid-area: Preguntas-Frecuentes; }
+  
+  .Footer { grid-area: Footer; }
+
+  .img {
+    width: 100%;
+  }
+  
